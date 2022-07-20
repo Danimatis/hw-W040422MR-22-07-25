@@ -30,9 +30,9 @@ function displayUserInformationInCard() {
   clearInputs(assessUserGender);
 }
 function assessUserGender() {
-  if (genderFemaleInput.checked === true) {
+  if (genderFemaleInput.checked) {
     return "female";
-  } else if (genderMaleInput.checked === true) {
+  } else if (genderMaleInput.checked) {
     return "male";
   } else {
     return;
